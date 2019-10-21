@@ -1,7 +1,16 @@
 .container {
-  display: flex;
+  height: 120px;
+  overflow: hidden;
   margin: 24px 0;
+}
+
+.scroller {
+  display: flex;
+  height: calc(100% + 2rem);
+  padding-bottom: 2rem;
+  overflow-y: hidden;
   overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
   scroll-snap-type: x mandatory;
 }
 
