@@ -1,5 +1,5 @@
 .container {
-  height: 120px;
+  height: calc(50vw - 20px);
   overflow: hidden;
   margin: 24px 0;
 }
@@ -17,12 +17,13 @@
 .item {
   flex-shrink: 0;
   width: calc(100vw - 40px);
-  height: 120px;
+  height: 0;
+  padding-bottom: 35.8%;
   color: white;
   border-radius: 8px;
   margin: 0 4px;
-  text-align: center;
   line-height: 120px;
+  text-align: center;
   font-size: 24px;
   scroll-snap-align: center;
   text-decoration: none;
